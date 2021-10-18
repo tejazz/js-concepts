@@ -1,5 +1,4 @@
 // inline caching
-
 function findUser(user) {
     return `found ${user.firstName} ${user.lastName}`;
 }
@@ -12,9 +11,7 @@ const userData = {
 // multiple calls caches same data
 findUser(userData);
 
-
 // hidden classes
-
 function Animal(x,y) {
     this.x = x;
     this.y = y;
